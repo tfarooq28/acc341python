@@ -12,7 +12,7 @@ VALUES
 (9999, (SELECT invoice_id FROM invoice LIMIT 1), 100.00, CURRENT_DATE);
 
 -- Error message Neon returned:
---ERROR: insert or update on table "payment_application" violates foreign key constraint "fk_app_payment" (SQLSTATE 23503) PASTE ERROR HERE
+--ERROR: insert or update on table "payment_application" violates foreign key constraint "fk_app_payment" (SQLSTATE 23503)
 
 
 -- =====================================================================
